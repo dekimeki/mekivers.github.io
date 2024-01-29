@@ -1,0 +1,154 @@
+body {
+	background-color: #ffffff;
+	margin: 0;
+}
+
+header {
+	font-family: helvetica, sans-serif;
+	font-size: 18px;
+	position: sticky;
+	background-color: #ffffff;
+	text-indent: 0;
+	top:0;
+	display: grid;
+	grid-template-columns: auto auto;
+
+
+}
+
+h1 {
+	font-family: helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	width: 150px;
+	padding-bottom: 10px;
+	margin:0;
+	color: #000000;
+	border:0;
+}
+
+h1:hover{
+	color: orangered;
+}
+
+p {
+	font-family: helvetica, sans-serif;
+	font-size: 15px;
+	margin:0;
+	color: #000000;
+}
+
+#naslov{
+	font-family: helvetica, sans-serif;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+
+#meni {
+	font-family: helvetica, sans-serif;
+	font-size: 18px;
+	margin-top: 8px;
+	text-align: right;
+	margin-right: 10px;
+	justify-self: end;
+	grid-gap: 5vw;
+
+
+}
+
+
+a{
+	color: #000000;
+	text-decoration: none;
+	font-family: helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	width: 150px;
+	margin:0;
+	text-align: left;
+}
+
+a:hover {
+	color: orangered;
+}
+
+h2 {
+	font-family: helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #000000;
+	margin-left: 10px;
+	display: grid;
+	grid-template-columns: auto;
+	width: 30%;
+	border:2px;
+	text-align: left;
+	padding-bottom: 370px;
+	
+
+}
+
+.mekisa {
+	
+	position: absolute;
+	top: 30px;
+	width: 30%;
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 23px;
+	justify-self: right;
+	grid-gap: 5vw;
+	padding-bottom: 100px;
+
+}
+
+main {
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 0vw;
+	grid-row-gap: 1.5vw;
+
+}
+
+.projekat img {
+	width: 80%
+}
+
+}
+.projekat:hover {
+	opacity: 70%;
+	cursor: pointer;
+	transition-duration: 70%;
+	margin-left: 10px;
+
+}
+.projekat video {
+	padding-top: 12px;
+	padding-bottom: 15px;
+}
+
+footer {
+	text-align: center;
+	margin: 10px;
+	
+}
+
+#tekst {
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 100px;
+	margin-left: 100px;
+	grid-gap: 5vw;
+	padding-bottom: 10px;
+
+}
+
+.naslov{
+	font-family: helvetica, sans-serif;
+	font-size: 18px;
+}
+
+
